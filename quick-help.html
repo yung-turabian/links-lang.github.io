@@ -909,9 +909,9 @@
 
 <p>The base types offered by Links are</p>
 
-<pre><code>  Bool  Int  Char  Float  Xml  Database</code></pre>
+<pre><code>  Bool  Int  Char  Float  String  DateTime  Xml  Database</code></pre>
 
-<p>The type <code>String</code> is not really a base type, but rather an alias for <code>[Char]</code> (the type for lists of characters). This means that any general list operation will work on a <code>String</code>.</p>
+<p>The type </em><code>String</code> <em>used</em> to not be a base type, but rather an alias for <code>[Char]</code> (the type for lists of characters). This <em>meant</em> that any general list operation will work on a <code>String</code>. Currently <code>String</code> is now a base type.</p>
 
 <h2 id="Type-annotations">Type annotations</h2>
 
